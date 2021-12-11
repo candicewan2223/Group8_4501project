@@ -1,0 +1,33 @@
+This is the readme file for TFA project
+Fangke Wan, Xinrou Zhu
+fw2383, xz3080
+
+This repository includes two files named Top10.ipynb and Parking.ipynb. Our basic dataset consisting of calls to the 311 phone number for non-emergency services in New York City. Each call to 311 has a number of datapoints tracked and aggregated. The basic dataset is named 311_Service_Requests_2020.csv.
+
+Explanation on the Top10.ipynb:
+# In the Top10.ipynb, we import the 311_Service_Requests_2020.csv as df;
+In the first step, we select the incident zip = 11101 as the zipcode subset;
+
+In the second step, we identify the create time variable, and create a new column-year;
+Then we set the year=2020 as the zip subset named year2020;
+
+In the third step, since we want to find the top10 complaint type,
+so we derive the complaint type column from year2020 subset; 
+
+At last, we count the top10 causes of calls to 311 are in the zipcode 11101
+From the final result, the top 10 causes in 11101 in the year 2020 is below:
+
+Illegal Parking                        2982
+Noise - Residential                    2030
+Noise - Street/Sidewalk                1220
+Blocked Driveway                       1034
+Non-Emergency Police Matter             904
+Street Condition                        670
+NonCompliance with Phased Reopening     649
+Noise                                   608
+Noise - Commercial                      512
+Noise - Vehicle                         374
+Name: Complaint Type, dtype: int64
+
+From the result you can see that the illegal parking takes the most causes(2982), 
+and the noise-vehivle is the last one in the top10 (374).
