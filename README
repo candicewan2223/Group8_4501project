@@ -1,8 +1,12 @@
 This is the readme file for Group8 TFA project
+E4501 Section 02
+Group 8
 Fangke Wan, Xinrou Zhu
 fw2383, xz3080
 
+
 This repository includes two files named Top10.ipynb and Parking.ipynb. Our basic dataset consisting of calls to the 311 phone number for non-emergency services in New York City. Each call to 311 has a number of datapoints tracked and aggregated. The basic dataset is named 311_Service_Requests_2020.csv.
+(When we import the csv file, we ingore the warning.)
 
 Explanation on the Top10.ipynb:
 # In the Top10.ipynb, we import the 311_Service_Requests_2020.csv as df;
